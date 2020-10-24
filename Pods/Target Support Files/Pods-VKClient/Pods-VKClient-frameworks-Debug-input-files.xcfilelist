@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-VKClient/Pods-VKClient-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/Realm/Realm.framework
+${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework
+${BUILT_PRODUCTS_DIR}/SwiftyVK/SwiftyVK.framework
+${BUILT_PRODUCTS_DIR}/VK-ios-sdk/VK_ios_sdk.framework
