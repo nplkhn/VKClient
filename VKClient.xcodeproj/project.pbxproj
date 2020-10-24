@@ -20,6 +20,7 @@
 		034918A525437F97003FFCA3 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034918A425437F97003FFCA3 /* AuthService.swift */; };
 		034918B2254415C9003FFCA3 /* NetworkDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034918B1254415C9003FFCA3 /* NetworkDataFetcher.swift */; };
 		034918BC25448B37003FFCA3 /* InfoBlockStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034918BB25448B37003FFCA3 /* InfoBlockStackView.swift */; };
+		034918C025449B15003FFCA3 /* WallWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034918BF25449B14003FFCA3 /* WallWrapper.swift */; };
 		5EF79C80D4F3C2452AE2D6ED /* Pods_VKClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA0BC2C22CB487B657EDBBDB /* Pods_VKClient.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		034918A425437F97003FFCA3 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		034918B1254415C9003FFCA3 /* NetworkDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetcher.swift; sourceTree = "<group>"; };
 		034918BB25448B37003FFCA3 /* InfoBlockStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoBlockStackView.swift; sourceTree = "<group>"; };
+		034918BF25449B14003FFCA3 /* WallWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WallWrapper.swift; path = VKClient/Services/Models/WallWrapper.swift; sourceTree = SOURCE_ROOT; };
 		BA0BC2C22CB487B657EDBBDB /* Pods_VKClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VKClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB82B4CA19BD7370823F26D9 /* Pods-VKClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKClient.debug.xcconfig"; path = "Target Support Files/Pods-VKClient/Pods-VKClient.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,6 +114,7 @@
 			children = (
 				034918972542E4D2003FFCA3 /* API.swift */,
 				0349189E25434309003FFCA3 /* UserWrapper.swift */,
+				034918BF25449B14003FFCA3 /* WallWrapper.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				0349189B254342CD003FFCA3 /* NetworkService.swift in Sources */,
 				0349189F25434309003FFCA3 /* UserWrapper.swift in Sources */,
 				0349181225403CEE003FFCA3 /* AppDelegate.swift in Sources */,
+				034918C025449B15003FFCA3 /* WallWrapper.swift in Sources */,
 				034918A525437F97003FFCA3 /* AuthService.swift in Sources */,
 				034918982542E4D3003FFCA3 /* API.swift in Sources */,
 			);
